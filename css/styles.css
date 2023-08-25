@@ -11146,7 +11146,7 @@ header.masthead {
 .fotos{
   background-color: #45595a;
   position: relative;
-  height: 2750px;
+  height: 2550px;
 }
 
 .florIA{
@@ -11155,6 +11155,53 @@ header.masthead {
   bottom: 0;
   left: 0;
 }
+
+@media (min-width: 383px){
+  .fotos{
+    background-color: #45595a;
+    position: relative;
+    height: 2720px;
+  }
+  
+  .florIA{
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+@media (min-width: 411px){
+  .fotos{
+    background-color: #45595a;
+    position: relative;
+    height: 2800px;
+  }
+  
+  .florIA{
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+
+@media (min-width: 440px){
+  .fotos{
+    background-color: #45595a;
+    position: relative;
+    height: 2800px;
+  }
+  
+  .florIA{
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+}
+
 @media (min-width: 576px){
   
   .fotos{
