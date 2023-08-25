@@ -11109,6 +11109,20 @@ header.masthead {
 /* ----------------------------------------------------------------------- */
 
 
+/* ------------------------------PORTFOLIO------------------------- */
+
+.portfolio-titulo{
+  color: #ebe2d7;
+}
+
+.fotos{
+  background-color: #45595a;
+  margin-top: -20px;
+}
+
+
+/* ----------------------------------------------------------------------- */
+
 #portfolio .portfolio-item {
   max-width: 26rem;
   margin-left: auto;
