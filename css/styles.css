@@ -11011,6 +11011,14 @@ header.masthead {
   display: none;
 }
 
+.florDA{
+  height: 100px;
+  padding-top: 0px;
+  margin-top: -130px;
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
+}
 
 
 @media (min-width: 768px) {
@@ -11073,6 +11081,15 @@ header.masthead {
     justify-self: top;
     margin-top: -240px;
   }
+
+  .florDA{
+    height: 200px;
+    padding-top: 0px;
+    margin-top: -230px;
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+  }
 }
 
 
@@ -11104,6 +11121,15 @@ header.masthead {
     align-self: center;
     justify-self: top;
     margin-top: -240px;
+  }
+
+  .florDA{
+    height: 200px;
+    padding-top: 0px;
+    margin-top: -230px;
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
   }
 }
 /* ----------------------------------------------------------------------- */
