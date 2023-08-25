@@ -8103,7 +8103,7 @@ textarea.form-control-lg {
 
 .text-muted {
   --bs-text-opacity: 1;
-  color: #6c757d !important;
+  color:#fdfdfd;
 }
 
 .text-black-50 {
@@ -10988,6 +10988,7 @@ header.masthead {
 .descripcion{
   background-color:#45595a;
   padding: 0px;
+  margin-bottom: -20px;
 }
 
 
@@ -11012,12 +11013,13 @@ header.masthead {
 }
 
 .florDA{
-  height: 100px;
+  /* height: 100px;
   padding-top: 0px;
   margin-top: -130px;
   display: block;
   margin-left: auto;
-  margin-right: 0;
+  margin-right: 0; */
+  display: none;
 }
 
 
@@ -11070,7 +11072,7 @@ header.masthead {
   .masthead-flower{
     height: 500px;
     width: 400px;
-    margin-top: -130px;
+    margin-top: -150px;
     
   }
   
@@ -11111,7 +11113,7 @@ header.masthead {
   .masthead-flower{
     height: 690px;
     width: 500px;
-    margin-top: -239px;
+    margin-top: -259px;
     margin-left: -160px;
   }
   
@@ -11124,9 +11126,9 @@ header.masthead {
   }
 
   .florDA{
-    height: 200px;
+    height: 300px;
     padding-top: 0px;
-    margin-top: -230px;
+    margin-top: -320px;
     display: block;
     margin-left: auto;
     margin-right: 0;
@@ -11143,9 +11145,63 @@ header.masthead {
 
 .fotos{
   background-color: #45595a;
-  margin-top: -20px;
+  position: relative;
+  height: 2900px;
 }
 
+.florIA{
+  height: 240px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+@media (min-width: 576px){
+  
+  .fotos{
+    background-color: #45595a;
+    position: relative;
+    height: 1250px;
+  
+  }
+  .florIA{
+    height: 240px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+@media (min-width: 768px){
+  
+  .fotos{
+    background-color: #45595a;
+    position: relative;
+    height: 1400px;
+  
+  }
+  .florIA{
+    height: 240px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+@media (min-width: 1085px){
+
+  .fotos{
+    background-color: #45595a;
+    position: relative;
+    height: 1100px;
+  
+  }
+  .florIA{
+    height: 300px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+}
 
 /* ----------------------------------------------------------------------- */
 
@@ -11180,15 +11236,16 @@ header.masthead {
 #portfolio .portfolio-item .portfolio-caption {
   padding: 1.5rem;
   text-align: center;
-  background-color: #fff;
+
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
-  font-size: 1.5rem;
-  font-weight: 700;
+  font-size: 1rem;
+  font-weight: 200;
   margin-bottom: 0;
+  color:#fdfdfd;
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
-  font-style: italic;
+  
 }
 
 .portfolio-modal .modal-dialog {
