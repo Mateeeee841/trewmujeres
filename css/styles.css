@@ -11166,8 +11166,15 @@ header.masthead {
   padding-bottom: 20px;
 }
 
+
 .end-img{
   height: 20px;
+}
+
+.end-flo{
+  height: 200px;
+  align-self: flex-start;
+  margin-bottom: -150px;
 }
 
 @media (min-width: 383px){
@@ -11182,6 +11189,12 @@ header.masthead {
     position: absolute;
     bottom: 0;
     left: 0;
+  }
+
+  .end-flo{
+    height: 200px;
+    align-self: flex-start;
+    margin-bottom: -150px;
   }
 }
 
@@ -11231,6 +11244,11 @@ header.masthead {
     left: 0;
   }
 
+  .end-flo{
+    height: 240px;
+    align-self: flex-start;
+    margin-bottom: -170px;
+  }
 
   .portfolio-end{
     font-size: 23px;
@@ -11295,6 +11313,12 @@ header.masthead {
     position: absolute;
     bottom: 0;
     left: 0;
+  }
+
+  .end-flo{
+    height: 300px;
+    align-self: flex-start;
+    margin-bottom: -250px;
   }
 }
 
