@@ -11177,26 +11177,7 @@ header.masthead {
   margin-bottom: -150px;
 }
 
-@media (min-width: 383px){
-  .fotos{
-    background-color: #45595a;
-    position: relative;
-    height: 2720px;
-  }
-  
-  .florIA{
-    height: 200px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-  }
 
-  .end-flo{
-    height: 200px;
-    align-self: flex-start;
-    margin-bottom: -150px;
-  }
-}
 
 @media (min-width: 411px){
   .fotos{
@@ -11323,6 +11304,64 @@ header.masthead {
 }
 
 
+
+/* ----------------------------------------------------------------------- */
+
+
+/* -------------------------AGENDA------------------------------ */
+.agenda{
+  background-color:#f9f7ee ;
+}
+
+.agenda-titulo{
+  padding-top: 50px;
+  text-align: center;
+}
+.fecha{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 17px;
+}
+
+.fecha-titulo{
+  font-weight:900;
+  padding-top: 50px;
+  margin-bottom: 0px;
+ 
+}
+
+.fecha-subtitulo{
+  margin-top: -8px;
+  color: #f88f8f;
+  font-weight:700;
+}
+
+.fecha-texto{
+  margin-bottom: 0px;
+  font-size: 13px;
+}
+
+.fecha-boton{
+  color: #45595a;
+  background-color:#FCD5BF ;
+  font-family:"resto-letra" ;
+  border: none;
+  margin-top: 20px;
+  width: 90px;
+  border-radius: 4px;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px){
+  .section{
+    padding: 0px 0;
+  }
+
+  
+
+}
 
 /* ----------------------------------------------------------------------- */
 
