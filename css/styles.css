@@ -11023,6 +11023,12 @@ header.masthead {
 }
 
 
+.divicion{
+  position: relative;
+  z-index: 2;
+  color: pink;
+}
+
 @media (min-width: 768px) {
   header.masthead {
     padding-top: 6rem;
@@ -11359,7 +11365,7 @@ header.masthead {
     padding: 0px 0;
   }
 
-  
+
 
 }
 
