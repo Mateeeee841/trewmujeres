@@ -11315,10 +11315,10 @@ header.masthead {
 
 
 /* -------------------------AGENDA------------------------------ */
-.agenda{
+ .agenda{
   background-color:#f9f7ee ;
-}
-
+  padding-bottom: 5vw;
+ }
 .agenda-titulo{
   padding-top: 50px;
   text-align: center;
@@ -11360,12 +11360,25 @@ header.masthead {
   margin-bottom: 20px;
 }
 
+.agenda-flor{
+  height: 150px;
+  position: absolute;
+  left: 0
+}
+
+@media (min-width: 465px){
+
+  .agenda-flor{
+    height: 250px;
+    
+  }
+}
+
 @media (min-width: 768px){
 
   .agenda-flor{
     height: 300px;
-    margin-top: -145px;
-    margin-left: -115px;
+    
   }
 
   
@@ -11373,7 +11386,7 @@ header.masthead {
 
   .agenda-titulo{
     font-size: 34px;
-    margin-top: -230px;
+    margin-top: ;
   }
 
   .fecha-titulo{
