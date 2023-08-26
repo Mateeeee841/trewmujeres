@@ -11361,11 +11361,37 @@ header.masthead {
 }
 
 @media (min-width: 768px){
-  .section{
-    padding: 0px 0;
+
+  .agenda-flor{
+    height: 300px;
+    margin-top: -145px;
+    margin-left: -115px;
   }
 
+  
 
+
+  .agenda-titulo{
+    font-size: 34px;
+    margin-top: -230px;
+  }
+
+  .fecha-titulo{
+    font-size: 34px;
+  }
+
+  .fecha-subtitulo{
+    font-size: 25px;
+  }
+  
+  .fecha-texto{
+    font-size: 20px;
+  }
+  
+  .fecha-boton{
+    font-size: 25px;
+    width: 235px;
+  }
 
 }
 
